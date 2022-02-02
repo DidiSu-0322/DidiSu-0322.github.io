@@ -1,0 +1,128 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
+body {
+    font-family: "Courier New", sans-serif;
+    background: #040606e7;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.text {
+    font-weight: 150;
+    font-size: 40px;
+    color: #f2d9a6fc;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.dud {
+    color: #325076;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    background: #040606e7;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 20;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background: #040606e7;
+    background-image: linear-gradient(to top, #105959e7 10%, #ff764d 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    background: #040606e7;
+    background-size: 100%;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #497575e7;
+    color: #fff;
+}
+
+.button:hover {
+    background: #ff764d
+}
